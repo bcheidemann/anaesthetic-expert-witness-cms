@@ -57,6 +57,13 @@ export const route = s.document({
                   ],
                 }),
               },
+              {
+                name: "css",
+                title: "CSS",
+                description: "CSS to apply to the banner. Accepts SCSS syntax.",
+                optional: true,
+                type: s.text(),
+              }
             ],
           }),
         ],

@@ -30,6 +30,7 @@ export const footerSection = s.document({
       name: "type",
       title: "Type",
       description: 'The type of the section. The "Small Print" type is displayed below the other sections. This can be used for legal information, such as a copyright notice.',
+      optional: true,
       type: s.string({
         options: {
           list: [
