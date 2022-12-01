@@ -4,6 +4,7 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import { footerSection } from './footerSection'
 import { image } from './image'
 import { route } from './route'
+import { navBarItem } from './navBarItem'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -16,5 +17,6 @@ export default createSchema({
     footerSection.schema(),
     image.schema(),
     route.schema(),
+    navBarItem.schema(),
   ]),
 })

@@ -37,13 +37,6 @@ const columnImage = s.objectNamed({
       type: s.string(),
     },
     {
-      name: "index",
-      title: "Index",
-      description: "The index of the column. This is used to determine the order of the columns.",
-      optional: true,
-      type: s.number(),
-    },
-    {
       name: "image",
       title: "Image",
       type: image,
@@ -84,13 +77,6 @@ const columnContent = s.objectNamed({
       type: s.string(),
     },
     {
-      name: "index",
-      title: "Index",
-      description: "The index of the column. This is used to determine the order of the columns.",
-      optional: true,
-      type: s.number(),
-    },
-    {
       name: "content",
       title: "Content",
       type: content,
@@ -105,7 +91,7 @@ export const route = s.document({
     {
       name: "title",
       title: "Title",
-      description: "The title of the route. Displayed in the tab bar. Leave blank to use the default title",
+      description: "The title of the route.",
       optional: true,
       type: s.string(),
     },
